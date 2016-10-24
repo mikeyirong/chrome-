@@ -1,0 +1,173 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>用户登录 - 防盗器监控管理系统</title>
+    <link href="css/sexybuttons.css" rel="stylesheet" type="text/css" />
+    <link href="css/mainlogin.css" rel="stylesheet" type="text/css" />
+    <script src="jquery.min.js"></script>
+    <script src="jquery-easyui-1.5/jquery.easyui.min.js"></script>
+    <link href="jquery-easyui-1.5/themes/default/easyui.css" rel="stylesheet">
+    <link href="jquery-easyui-1.5/themes/icon.css" rel="stylesheet" />
+    <script src="jquery-easyui-1.5/locale/easyui-lang-zh_CN.js"></script>
+    <script type="text/javascript">
+
+        var LoginAndReg;
+
+        function login() {
+            var txtUserName = $("#txtUserName");
+            var txtPassword = $("#txtPassword");
+
+            if (txtUserName.val() == "") {
+                alert("请输入用户名！");
+                txtUserName.focus();
+                return false;
+            } else if (txtPassword.val() == "") {
+                alert("请输入密码！");
+                txtPassword.focus();
+                return false;
+            } else {
+                //$("#btnLogin").click(function () {
+                    console.info($("#txtPassword").val());
+                    var user = encodeSTR($("#txtUserName").val());
+                    var pass = encodeSTR($("#txtPassword").val());
+                $.post(
+                    "Login.ashx",
+                    { txtUsername: user, txtPass: pass, },
+                    
+                                function (e) {
+                                    console.info(e);
+                                    alert(e);
+                                    if (e == "登录成功！") {
+                                        window.location.href = "index.aspx";
+                                    }
+                                }, "html"
+                            );
+                //});
+
+
+            }
+        }
+
+
+        function encodeSTR(str) {
+
+            var t = "";
+
+            for (var x = 0; x < str.length; x++) {
+
+                var a = str.charCodeAt(x);
+
+                if (x != 0) {
+                    t += '|';
+                }
+
+                t += new Number(a).toString(10);
+            }
+
+            return t;
+        }
+
+        function decodeSTR(str) {
+
+            var a1 = str.split('|');
+
+
+            for (var x = 0; x < a1.length; x++) {
+                a1[x] = String.fromCharCode(a1[x]);
+            }
+
+            return a1.join('');
+        }
+
+
+        function getsize() {
+            var windowHeight = 0;
+            var widowWidth = 0;
+            if (typeof (window.innerHeight) == 'number') {
+                windowHeight = window.innerHeight;
+                widowWidth = window.innerWidth;
+            }
+            else {
+                if (document.documentElement && document.documentElement.clientHeight) {
+                    windowHeight = document.documentElement.clientHeight;
+                    widowWidth = document.documentElement.clientWidth;
+                }
+                else {
+                    if (document.body && document.body.clientHeight) {
+                        windowHeight = document.body.clientHeight;
+                        widowWidth = document.body.clientWidth;
+                    }
+                }
+            }
+
+            return { width: widowWidth, height: windowHeight };
+        }
+
+
+        $(function () {
+
+            $('#btnLogin').click(function () { login(); return false; });
+            //响应键盘的回车事件
+            //$(this).keydown(function (event) {
+            //    if (event.keyCode == 13) {
+            //        event.returnValue = false;
+            //        event.cancel = true;
+            //        return login();
+            //    }
+            //});
+            //$('#txtorgcode').combobox({
+            //    data:orgdata,valueField:'id',textField:'text',panelHeight:'300',width:160
+            //})
+        })
+
+    </script>
+</head>
+<body>
+    <div id="LoginCircle">
+        <div id="LoginDoc">
+            <div id="SysName"></div>
+
+            <form id="LoginFrom" method="post">
+                <div id="SysInput">
+                    <!--<ul>
+                    <li>单位代码：</li>
+                    <li>
+                        <input id="txtorgcode" name="orgcode" value="" type="text" class="InputStyle" maxlength="18" /></li>
+                </ul>-->
+                    <ul>
+                        <li>用户名：</li>
+                        <li>
+                            <input id="txtUserName" name="username" value="" type="text" class="InputStyle" maxlength="18" /></li>
+                    </ul>
+                    <ul>
+                        <li>密&nbsp;&nbsp;&nbsp;码：</li>
+                        <li>
+                            <input name="password" type="pass" class="InputStyle" value="" id="txtPassword" /></li>
+                    </ul>
+                    <ul>
+                        <li>&nbsp;</li>
+                    </ul>
+                    <ul>
+                        <li></li>
+                        <li>
+                            <div style="width: 170px; text-align: left">
+                                <button class="sexybutton" id="btnLogin"><span><span><span class="usergo">登录</span></span></span></button>&nbsp;
+                                <button class="sexybutton" type="reset"><span><span><span class="reload">重置</span></span></span></button>
+                            </div>
+                        </li>
+
+                    </ul>
+                </div>
+            </form>
+            <div class="clear">
+            </div>
+        </div>
+    </div>
+    <div id="Copy">
+        <font color="red">防盗器监控管理系统</font> Version 1.0 由XX科技提供技术支持！
+        <br />
+    </div>
+</body>
+</html>

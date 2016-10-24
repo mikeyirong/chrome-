@@ -1,0 +1,30 @@
+{
+°∞name°±: °∞XPlayer °∞,
+°∞version°±: °∞0.2°Â,
+°∞description°±: °∞XP(XPlayer),∂π∞Í“Ù¿÷≤•∑≈∆˜°±,
+°∞manifest_version°±: 2,
+°∞homepage_url°±: °∞http://www.xiongchuan.org/xplayer°±,
+°∞icons°±:{
+°∞16°Â : °∞icon_16.png°±,
+°∞48°Â : °∞icon_48.png°±,
+°∞128°Â : °∞icon_128.png°±
+},
+°∞browser_action°±: {
+°∞default_icon°± : °∞icon_128.png°±,
+°∞default_title°± : °∞XPlayer°±,
+°∞default_popup°± : °∞popup.htm°±
+},
+°∞background°±:{
+°∞page°±:°±background.htm°±
+},
+°∞permissions°±: ["tabs"],
+°∞content_scripts°±:[
+{
+"matches":["http://*.douban.com/*"],
+°∞js°±:["js/jquery.min.js","js/content_scripts.js"]
+}
+]
+
+ 
+
+}

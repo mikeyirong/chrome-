@@ -1,0 +1,103 @@
+
+#export-header-left {
+    float: left;
+}
+#export-header-right {
+    float: right;
+}
+#pleaseWait {
+    font-weight: bold;
+    text-align: center;
+}
+#pleaseWait img {
+    display: block;
+    margin: auto;
+    margin-top: 2em;
+    width: auto;
+}
+#content div {
+    widht: 97%;
+}
+#uploadImageTarget {
+    width:0;
+    height:0;
+    border:0px solid #fff;
+}
+.small-grey {
+    color: #696969;
+    font-size:90%
+}
+.signature-display {
+    margin-left: 27px;
+}
+
+.mini-alert-export-warn, .mini-alert-export-warn-box {
+    width: 260px;
+    background-image: url("images/fba/error.gif");
+    background-color: #FFFFCC;
+    background-repeat: no-repeat;
+    background-position: 4px center;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #EEBB00;
+    display: inline;
+    padding: 4px 4px 4px 24px;
+    color: #000099;
+}
+.mini-alert-export-warn-box {
+    display: block;
+    margin-bottom: 0.4em;
+}
+.mini-alert-export-error {
+    background-image: url("images/fba/exclamation.gif");
+    background-color: #FFFFCC;
+    background-repeat: no-repeat;
+    background-position: 4px center;
+    display: inline;
+    border-color: #EEBB00;
+    border-style: solid;
+    border-width: 1px;
+    padding: 4px 4px 4px 24px;
+    color: #FF0000;
+}
+img.image-display {
+    margin-bottom: 10px;
+    border-color: #808080;
+    border-style: dotted;
+    border-width: 1px;
+}
+.exportpg {
+    background-color: #FFFFFF;
+    padding: 10px 2.5%;
+    font-size: 11px;
+    height: 1%;
+    overflow: visible;
+    vertical-align: top;
+}
+
+.move-up {
+    margin: -1px 0 0 0;
+}
+
+.line-height-large {
+    line-height: 22px;
+}
+
+.label.no-vert-padding, .field.no-vert-padding  {
+    padding:0 6px;
+}
+.fba-settings-gfba-export-edit{
+    float:right;margin:0 -6px;
+}
+.fba-settings-gfba-warn{
+    margin:-5px 0; display:inline-block;
+}
+
+.fba-export-field-lbl{
+    margin-top:9px;
+}
+
+.fba-export-address-field{
+    width:400px;
+    padding:3px;
+}

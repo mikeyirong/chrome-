@@ -1,0 +1,12 @@
+D:\GitHubProject\AjaxUploadFile\AjaxUploadFile\bin\AjaxUploadFile.dll.config
+D:\GitHubProject\AjaxUploadFile\AjaxUploadFile\bin\AjaxUploadFile.dll
+D:\GitHubProject\AjaxUploadFile\AjaxUploadFile\bin\AjaxUploadFile.pdb
+D:\GitHubProject\AjaxUploadFile\AjaxUploadFile\obj\Debug\AjaxUploadFile.csprojResolveAssemblyReference.cache
+D:\GitHubProject\AjaxUploadFile\AjaxUploadFile\obj\Debug\AjaxUploadFile.dll
+D:\GitHubProject\AjaxUploadFile\AjaxUploadFile\obj\Debug\AjaxUploadFile.pdb
+C:\Users\Administrator\Desktop\AmazonNew\AjaxUploadFile\AjaxUploadFile\bin\AjaxUploadFile.dll.config
+C:\Users\Administrator\Desktop\AmazonNew\AjaxUploadFile\AjaxUploadFile\bin\AjaxUploadFile.dll
+C:\Users\Administrator\Desktop\AmazonNew\AjaxUploadFile\AjaxUploadFile\bin\AjaxUploadFile.pdb
+C:\Users\Administrator\Desktop\AmazonNew\AjaxUploadFile\AjaxUploadFile\obj\Debug\AjaxUploadFile.csprojResolveAssemblyReference.cache
+C:\Users\Administrator\Desktop\AmazonNew\AjaxUploadFile\AjaxUploadFile\obj\Debug\AjaxUploadFile.dll
+C:\Users\Administrator\Desktop\AmazonNew\AjaxUploadFile\AjaxUploadFile\obj\Debug\AjaxUploadFile.pdb

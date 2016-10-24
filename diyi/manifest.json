@@ -1,0 +1,15 @@
+{
+  "manifest_version": 2,
+
+  "name": "菜鸟",
+  "description": "This extension demonstrates a 'browser action' with kittens.",
+  "version": "1.0",
+
+  "browser_action": {
+    "default_icon": "superman.jpg",
+    "default_popup": "popup.html"       
+  },
+  "permissions":[
+	"http://www.cnblogs.com/bdstjk/p/3180925.html"
+  ]
+}

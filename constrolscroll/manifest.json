@@ -1,0 +1,15 @@
+{
+ "name":"控制流浏览器",
+ "manifest_version":2,
+ "version":"1.0",
+ "description":"控制浏览器下拉刷新",
+ "browser_action":{
+ "default_icon":"icon19.png"
+ },
+ "permissions": [
+    "activeTab"
+  ],
+  "background": {
+    "scripts": ["constrol.js"]
+  }
+}

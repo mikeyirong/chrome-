@@ -1,0 +1,745 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+    
+    
+
+
+
+    
+
+   
+
+
+
+
+
+
+
+
+
+        
+    
+    
+
+
+   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+        
+
+
+    
+    
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+
+
+
+
+
+
+
+    
+
+
+
+
+
+
+
+
+    
+
+
+
+
+
+
+
+    
+    
+    
+        
+
+
+
+
+
+
+
+
+
+
+
+        
+    
+
+
+    
+
+<!DOCTYPE html><html>
+    <head>
+<script type="text/javascript">var ue_t0=ue_t0||+new Date();</script>
+<script type='text/javascript'>
+var ue_csm = window;
+ue_csm.ue_hob=ue_csm.ue_hob||+new Date();(function(f,a){var b="FATAL",c={ec:0,ecf:0,pec:0,ts:0,erl:[],mxe:50,startTimer:function(){c.ts++;setInterval(function(){f.ue&&(c.pec<c.ec)&&f.uex("at");c.pec=c.ec},10000)}};function e(g){if(c.ec>c.mxe){return}c.ec++;if(!g.logLevel||(g.logLevel==b)){c.ecf++}g.pageURL=""+(a.location?a.location.href:"");c.erl.push(g)}function d(l,k,g,i,h){var j={m:l,f:k,l:g,c:""+i,err:h,fromOnError:1,args:arguments};f.ueLogError(j);return false}d.skipTrace=1;e.skipTrace=1;f.ueLogError=e;f.ue_err=c;a.onerror=d})(ue_csm,window);ue_csm.ue_hoe=+new Date();
+
+
+var ue_id='BMNFK569MSTCYZYE3K2Z',
+ue_sid='276-7950611-8139406',
+ue_mid='A1F83G8C2ARO7P',
+ue_sn='sellercentral.amazon.co.uk',
+ue_url='/gp/uedata/unsticky/276-7950611-8139406/NoPageType/ntpoffrw',
+ue_furl='fls-eu.amazon.com',
+ue_navtiming=1,
+ue_log_idx=0,
+ue_log_f=0,
+ue_fcsn=1,
+ue_ctb0tf=0,
+ue_fst=0,
+ue_fna=0,
+ue_swi=0,
+ue_swm=1,
+ue_ufia=0,
+ue_puul=0,
+ue_lgunenc=0,
+ue_isrw=0,
+ue_stforurl=0,
+ue_onbful=0,
+ue_fpf='//fls-eu.amazon.com/1/batch/1/OP/A1F83G8C2ARO7P:276-7950611-8139406:BMNFK569MSTCYZYE3K2Z$uedata=s:';
+if (!window.ue_csm) {var ue_csm = window;}
+ue_csm.ue_hob=ue_csm.ue_hob||+new Date;function ue_viz(){(function(d,j,g){var i=0,b,l,e,a,c=["","moz","ms","o","webkit"],k=0,f=20,h="addEventListener";while((b=c.pop())&&!k){l=(b?b+"H":"h")+"idden";if(k=typeof j[l]=="boolean"){e=b+"visibilitychange";a=b+"VisibilityState"}}function m(q){if((d.ue.viz.length<f)){var p=q.type,n=q.originalEvent;if(!(/^focus./.test(p)&&n&&(n.toElement||n.fromElement||n.relatedTarget))){var r=j[a]||(p=="blur"||p=="focusout"?"hidden":"visible"),o=+new Date-d.ue.t0;d.ue.viz.push(r+":"+o);if(r=="visible"){if(ue.iel&&(ue.iel.length>0)&&r=="visible"&&!i){uex("at")}i=1}}}}m({});if(k){j[h](e,m,0)}})(ue_csm,document,window)}ue_csm.ue_hoe=+new Date;
+ue_csm.ue_hob=ue_csm.ue_hob||+new Date();(function(e,j){e.ueinit=(e.ueinit||0)+1;e.ue={t0:j.aPageStart||e.ue_t0,id:e.ue_id,url:e.ue_url,a:"",b:"",h:{},r:{ld:0,oe:0,ul:0},s:1,t:{},sc:{},iel:[],ielf:[],fc_idx:{},viz:[],v:32};function f(k){return e.ue_fpf+encodeURIComponent(k)+":"+(+new Date()-e.ue_t0)}e.ue.tagC=function(){var k=[];return function(l){if(l){k.push(l)}return k.slice(0)}};e.ue.tag=e.ue.tagC();e.ue.ifr=((j.top!==j.self)||(j.frameElement))?1:0;function c(m,p,r,o){if(e.ue_log_f&&e.ue.log){e.ue.log({f:"uet",en:m,s:p,so:r,to:o},"csm")}var q=o||(new Date()).getTime();var k=!p&&typeof r!="undefined";if(k){return}if(m){var n=p?d("t",p)||d("t",p,{}):e.ue.t;n[m]=q;for(var l in r){d(l,p,r[l])}}return q}function d(l,m,n){if(e.ue_log_f&&e.ue.log){e.ue.log({f:"ues",k:l,s:m,v:n},"csm")}var o,k;if(l){o=k=e.ue;if(m&&m!=o.id){k=o.sc[m];if(!k){k={};n?(o.sc[m]=k):k}}o=n?(k[l]=n):k[l]}return o}function h(o,p,n,l,k){if(e.ue_log_f&&e.ue.log){e.ue.log({f:"ueh",ek:o},"csm")}var m="on"+n,q=p[m];if(typeof(q)=="function"){if(o){e.ue.h[o]=q}}else{q=function(){}}p[m]=k?function(r){l(r);q(r)}:function(r){q(r);l(r)};p[m].isUeh=1}function b(u,o,t){if(e.ue_log_f&&e.ue.log){e.ue.log({f:"uex",en:u,s:o,so:t},"csm")}function m(Q,O){var M=[Q],H=0,N={},F;if(O){M.push("m=1");N[O]=1}else{N=e.ue.sc}for(var G in N){var I=d("wb",G),L=d("t",G)||{},K=d("t0",G)||e.ue.t0;if(O||I==2){var P=I?H++:"";M.push("sc"+P+"="+G);for(var J in L){if(J.length<=3&&L[J]){M.push(J+P+"="+(L[J]-K))}}M.push("t"+P+"="+L[u]);if(d("ctb",G)||d("wb",G)){F=1}}}if(!p&&F){M.push("ctb=1")}return M.join("&")}function x(F,J,M,I){if(!F){return}var K=new Image(),N=!I||!e.ue.log||!j.amznJQ||(j.amznJQ&&j.amznJQ.Ok)||e.ue_lgunenc,H=(!e.ue_puul||J!="ul"),G=e.ue_err;function O(){if(!e.ue.b){return}var P=e.ue.b;e.ue.b="";x(P,J,M,1)}if(e.ue.b&&!e.ue_swi){K.onload=O}if(N&&H){e.ue.iel.push(K);K.src=F}if(e.ue.log&&(M||I||e.ue_ctb0tf)){if(e.ue.log&&e.ue.log.isStub&&e.ue_stforurl&&e.ue_fpf){K=new Image();var L=f(F);e.ue.iel.push(L);K.src=L}else{e.ue.log(F,"uedata",{n:1});e.ue.ielf.push(F)}}if(G&&!G.ts){G.startTimer()}if(e.ue_swi){O()}}function D(F){if(!ue.collected){var H=F.timing,G=F.navigation;if(H){e.ue.t.na_=H.navigationStart;e.ue.t.ul_=H.unloadEventStart;e.ue.t._ul=H.unloadEventEnd;e.ue.t.rd_=H.redirectStart;e.ue.t._rd=H.redirectEnd;e.ue.t.fe_=H.fetchStart;e.ue.t.lk_=H.domainLookupStart;e.ue.t._lk=H.domainLookupEnd;e.ue.t.co_=H.connectStart;e.ue.t._co=H.connectEnd;e.ue.t.sc_=H.secureConnectionStart;e.ue.t.rq_=H.requestStart;e.ue.t.rs_=H.responseStart;e.ue.t._rs=H.responseEnd;e.ue.t.dl_=H.domLoading;e.ue.t.di_=H.domInteractive;e.ue.t.de_=H.domContentLoadedEventStart;e.ue.t._de=H.domContentLoadedEventEnd;e.ue.t._dc=H.domComplete;e.ue.t.ld_=H.loadEventStart;e.ue.t._ld=H.loadEventEnd}if(G){e.ue.t.ty=G.type+e.ue.t0;e.ue.t.rc=G.redirectCount+e.ue.t0;if(e.ue.tag){e.ue.tag(G.redirectCount?"redirect":"nonredirect")}}e.ue.collected=1}}if(!o&&(typeof t!="undefined")){return}for(var k in t){d(k,o,t[k])}c("pc",o,t);var z=d("id",o)||e.ue.id,r=e.ue.url+"?"+u+"&v="+e.ue.v+"&id="+z,p=d("ctb",o)||d("wb",o);if(p){r+="&ctb="+p}if(e.ueinit>1){r+="&ic="+e.ueinit}var C=j.performance||j.webkitPerformance,A=e.ue.bfini,s=C&&C.navigation&&C.navigation.type==2,q=o&&(o!=z)&&d("ctb",o),l;if(!q){if(A&&A>1){r+="&bft="+(A-1);r+="&bfform=1"}else{if(s){r+="&bft=1"}}if(s){r+="&bfnt=1"}}if(e.ue._fi&&u=="at"&&(!o||o==z)){r+=e.ue._fi()}if((u=="ld"||u=="ul")&&(!o||o==z)){if(u=="ld"){if(j.onbeforeunload&&j.onbeforeunload.isUeh){j.onbeforeunload=null}ue.r.ul=e.ue_onbful;if(e.ue_onbful==3){i("beforeunload",e.onUl)}if(document.ue_backdetect&&document.ue_backdetect.ue_back){document.ue_backdetect.ue_back.value++}if(e._uess){l=e._uess()}}if(e.ue_navtiming&&C&&C.timing){d("ctb",z,"1");if(e.ue_navtiming==1){e.ue.t.tc=C.timing.navigationStart}}if(C){D(C)}e.ue.t.hob=e.ue_hob;e.ue.t.hoe=e.ue_hoe;if(e.ue.ifr){r+="&ifr=1"}}c(u,o,t);var y=(u=="ld"&&o&&d("wb",o)),B=1;if(y){d("wb",o,2)}for(var w in e.ue.sc){if(d("wb",w)==1){B=0;break}}if(y){if(!e.ue.s&&(e.ue_swi||(B&&!e.ue_swi))){r=m(r,null)}else{return}}else{if((B&&!e.ue_swi)||e.ue_swi){var E=m(r,null);if(E!=r){e.ue.b=E}}if(l){r+=l}r=m(r,o||e.ue.id)}if(e.ue.b||y){for(var w in e.ue.sc){if(d("wb",w)==2){delete e.ue.sc[w]}}}var v=0;if(!y){e.ue.s=0;var n=e.ue_err;if(n&&n.ec>0&&(n.pec<n.ec)){n.pec=n.ec;r+="&ec="+n.ec+"&ecf="+n.ecf}v=d("ctb",o);d("t",o,{})}if(!j.amznJQ&&e.ue.tag){e.ue.tag("noAmznJQ")}if(e.ue.log&&e.ue.log.isStub&&e.ue.tag&&u=="ul"){e.ue.tag("noForester")}if(r&&e.ue.tag&&e.ue.tag().length>0){r+="&csmtags="+e.ue.tag().join("|");e.ue.tag=e.ue.tagC()}if(r&&e.ue.viz&&e.ue.viz.length>0){r+="&viz="+e.ue.viz.join("|");e.ue.viz=[]}e.ue.a=r;x(r,u,v,y)}function a(k,l,m){m=m||j;if(m.addEventListener){m.addEventListener(k,l,false)}else{if(m.attachEvent){m.attachEvent("on"+k,l)}}}ue.attach=a;function i(k,l,m){m=m||j;if(m.removeEventListener){m.removeEventListener(k,l)}else{if(m.detachEvent){m.detachEvent("on"+k,l)}}}ue.detach=i;function g(){if(e.ue_log_f&&e.ue.log){e.ue.log({f:"uei"},"csm")}var m=e.ue.r;function l(o){return function(){if(!m[o]){m[o]=1;b(o)}}}e.onLd=l("ld");e.onLdEnd=l("ld");e.onUl=l("ul");var k={stop:l("os")};if(!j.chrome){k.beforeunload=e.onUl}for(var n in k){h(0,j,n,k[n])}e.ue_viz&&ue_viz();a("load",e.onLd);if(e.ue_onbful==3){a("beforeunload",e.onUl)}c("ue")}ue.reset=function(l,k){if(!l){return}e.ue_cel&&e.ue_cel.reset();e.ue.t0=+new Date();e.ue.rid=l;e.ue.id=l;e.ue.fc_idx={};e.ue.viz=[]};e.uei=g;e.ueh=h;e.ues=d;e.uet=c;e.uex=b;g()})(ue_csm,window);ue_csm.ue_hoe=+new Date();
+
+
+ue_csm.ue_hob=ue_csm.ue_hob||+new Date();(function(b){var a=b.ue;a.rid=b.ue_id;a.sid=b.ue_sid;a.mid=b.ue_mid;a.furl=b.ue_furl;a.sn=b.ue_sn;a.lr=[];a.log=function(e,d,c){if(a.lr.length==500){return}a.lr.push(["l",e,d,c,a.d(),a.rid])};a.log.isStub=1;a.d=function(c){return +new Date-(c?0:a.t0)}})(ue_csm);ue_csm.ue_hoe=+new Date();
+</script>
+
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <title>亚马逊卖家平台</title>
+
+
+        <script type="text/javascript">
+            window.name="rainierWindow";
+
+            var logoImage = new Image();
+            logoImage.onload = function() {
+                if (typeof uet==='function'){uet('cf');}
+            }
+
+            logoImage.src = 'https://images-na.ssl-images-amazon.com/images/G/02/rainier/nav/sc-unified._V360963816_.png';
+        </script>
+
+        
+    <!--[if lt IE 8]>
+        <style id="cjmask">body {display: none !important;}</style>
+        <script type="text/javascript">
+            if (self.document.domain === top.document.domain) {
+                var mask = document.getElementById('cjmask');
+                mask.parentNode.removeChild(mask);
+            } else {
+                top.location = self.location.href;
+            }
+        </script>
+    <![endif]-->
+
+        
+        
+
+        
+<link type='text/css' href='https://images-na.ssl-images-amazon.com/images/G/01/browser-scripts/popover/popover-3527452809._V1_.css' rel='stylesheet'>
+<style type="text/css">
+
+/* non-sprited */
+.ap_popover_unsprited .ap_body   .ap_left   { background-image: url(https://images-na.ssl-images-amazon.com/images/G/01/javascripts/lib/popover/images/po_left_17._V248144977_.png); }
+.ap_popover_unsprited .ap_body   .ap_right  { background-image: url(https://images-na.ssl-images-amazon.com/images/G/01/javascripts/lib/popover/images/po_right_17._V248144979_.png); }
+.ap_popover_unsprited .ap_header .ap_left   { background-image: url(https://images-na.ssl-images-amazon.com/images/G/01/javascripts/lib/popover/images/po_top_left._V265110087_.png); }
+.ap_popover_unsprited .ap_header .ap_right  { background-image: url(https://images-na.ssl-images-amazon.com/images/G/01/javascripts/lib/popover/images/po_top_right._V265110087_.png); }
+.ap_popover_unsprited .ap_header .ap_middle { background-image: url(https://images-na.ssl-images-amazon.com/images/G/01/javascripts/lib/popover/images/po_top._V265110086_.png); }
+.ap_popover_unsprited .ap_footer .ap_left   { background-image: url(https://images-na.ssl-images-amazon.com/images/G/01/javascripts/lib/popover/images/po_bottom_left._V265110084_.png); }
+.ap_popover_unsprited .ap_footer .ap_right  { background-image: url(https://images-na.ssl-images-amazon.com/images/G/01/javascripts/lib/popover/images/po_bottom_right._V265110087_.png); }
+.ap_popover_unsprited .ap_footer .ap_middle { background-image: url(https://images-na.ssl-images-amazon.com/images/G/01/javascripts/lib/popover/images/po_bottom._V265110084_.png); }
+
+/* Everything else -- sprited */
+.ap_popover_sprited .ap_body .ap_left, 
+.ap_popover_sprited .ap_body .ap_right {
+    background-image: url(https://images-na.ssl-images-amazon.com/images/G/01/javascripts/lib/popover/images/light/sprite-v._V219326283_.png);
+}
+
+
+.ap_popover_sprited .ap_header .ap_left, 
+.ap_popover_sprited .ap_header .ap_right,
+.ap_popover_sprited .ap_header .ap_middle,
+.ap_popover_sprited .ap_footer .ap_left, 
+.ap_popover_sprited .ap_footer .ap_right,
+.ap_popover_sprited .ap_footer .ap_middle,
+.ap_popover_sprited .ap_closebutton {
+    background-image: url(https://images-na.ssl-images-amazon.com/images/G/01/javascripts/lib/popover/images/light/sprite-h._V219326280_.png);
+}
+
+.ap_popover_sprited .ap_body .ap_right-arrow, .ap_popover_sprited .ap_body .ap_left-arrow {
+    background-image: url(https://images-na.ssl-images-amazon.com/images/G/01/javascripts/lib/popover/images/light/sprite-arrow-v._V219326286_.png);
+}
+
+</style>
+
+
+<script type="text/javascript">
+
+var amznJQ,jQueryPatchIPadOffset=false;
+(function() {
+  function f(x) {return function(){x.push(arguments);}}
+  function ch(y) {return String.fromCharCode(y);}
+  var a=[],c=[],cs=[],d=[],l=[],o=[],s=[],p=[];
+  amznJQ={
+    _a:a,_c:c,_cs:cs,_d:d,_l:l,_o:o,_s:s,_pl:p,
+    addLogical:f(l),
+    addStyle:f(s),
+    addPL:f(p),
+    available:f(a),
+    chars:{EOL:ch(10), SQUOTE:ch(39), DQUOTE:ch(34), BACKSLASH:ch(92), YEN:ch(165)},
+    completedStage:f(cs),
+    declareAvailable:f(d),
+    onCompletion:f(c),
+    onReady:f(o),
+    strings:{}
+  };
+}());
+
+
+</script>
+
+
+
+
+
+        
+    
+        
+    
+
+    
+        
+    
+
+    
+
+
+    
+        
+    <link type="text/css" href="https://images-na.ssl-images-amazon.com/images/G/01/browser-scripts/rainier-merged-gateway/rainier-merged-gateway-7054738238._V1_.css" rel="stylesheet">
+<link type="text/css" href="https://images-na.ssl-images-amazon.com/images/G/01/browser-scripts/rainier-core/rainier-core-2807000046._V1_.css" rel="stylesheet">
+
+    
+
+
+
+
+        
+
+    <script type="text/javascript">
+if (window.amznJQ) {
+    amznJQ.addLogical('csm-base', [ "https://images-na.ssl-images-amazon.com/images/G/01/browser-scripts/csm-base/csm-base-min-47858736._V1_.js" ]);
+    amznJQ.available('csm-base', function() {});
+}
+
+</script>
+</head>
+<body>
+
+
+<style type="text/css">
+  #signin-logo{width:95%;margin:10px auto 0;vertical-align:top;}
+  #signin-page-container{border:0;margin-left:2.5%;width:95%;}
+  #signin-box-container{vertical-align:top;width:450px}
+  #signin-box{border:0;padding:0;}
+  #signin-logo-img{margin-left:5px}
+  #signin-links{width:95%;margin:10px auto 0;}
+  .label-container{padding:5px;vertical-align:middle;white-space:nowrap;}
+  #signin-button-container{padding:5px;text-align:right;white-space:nowrap}
+  #login-right-column{vertical-align:top}
+</style>
+
+<div id="signin-logo"><img src="https://images-na.ssl-images-amazon.com/images/G/02/rainier/nav/sc-unified._V360963816_.png" id="sc_logo_top_image" onload="if (typeof uet==='function'){uet('cf');}" border="0" class="sc-unified" /></div>
+
+<table id="signin-page-container"><tr><td id="signin-box-container">
+
+<table id="signin-box"><tr><td>
+
+<div class="content-module">
+
+<form method="POST" action="https://sellercentral.amazon.co.uk/ap/widget" name="signinWidget">
+    <table class="titlebar-purple" style="border-collapse:collapse;">
+          <tr><th>登录我的账户</th></tr>
+    </table>
+    <input type="hidden" name="widgetToken" value="X2VuY29kaW5nPVVURjgmbGFuZ3VhZ2U9emhfQ04mb3BlbmlkLmFzc29jX2hhbmRsZT1zY191a19hbWF6b24mb3BlbmlkLmNsYWltZWRfaWQ9aHR0cCUzQSUyRiUyRnNwZWNzLm9wZW5pZC5uZXQlMkZhdXRoJTJGMi4wJTJGaWRlbnRpZmllcl9zZWxlY3Qmb3BlbmlkLmlkZW50aXR5PWh0dHAlM0ElMkYlMkZzcGVjcy5vcGVuaWQubmV0JTJGYXV0aCUyRjIuMCUyRmlkZW50aWZpZXJfc2VsZWN0Jm9wZW5pZC5tb2RlPWNoZWNraWRfc2V0dXAmb3BlbmlkLm5zPWh0dHAlM0ElMkYlMkZzcGVjcy5vcGVuaWQubmV0JTJGYXV0aCUyRjIuMCZvcGVuaWQubnMucGFwZT1odHRwJTNBJTJGJTJGc3BlY3Mub3BlbmlkLm5ldCUyRmV4dGVuc2lvbnMlMkZwYXBlJTJGMS4wJm9wZW5pZC5wYXBlLm1heF9hdXRoX2FnZT0wJm9wZW5pZC5yZXR1cm5fdG89aHR0cHMlM0ElMkYlMkZzZWxsZXJjZW50cmFsLmFtYXpvbi5jby51ayUyRmh6JTJGcGF5bWVudHMtYWNjb3VudCUyRnJlcG9ydCUyRmRvd25sb2FkJTNGX2VuY29kaW5nJTNEVVRGOCUyNmNvbnRlbnRUeXBlJTNEdGV4dCUyNTJGY3N2JTI2ZmlsZU5hbWUlM0QyMDE2QXByX01vbnRobHlUcmFuc2FjdGlvbi5jc3YlMjZyZWZlcmVuY2VJZCUzRDUwNzIxMDE2OTI0JnBhZ2VJZD1zY19ldV9hbWF6b24mc2hvd1Jtck1lPTA=:ZmY5b1RVa3hScGl0TDd1OVlFaUJVYVUzMGpNclJJNzJNYXc4NkoybnZpdz06MQ==">
+    <input type="hidden" name="rememberMe" value="false">
+
+    <table class="data-entry-purple" cellspacing="1">
+      <tr><td>
+    <table class="data-entry-purple" cellspacing="0"><tr><td style="padding:10px">
+        <table class="data-entry-purple" cellspacing="0">
+          <tr>
+            <td class="alignright bold label-container" style="width:100%">
+              电子邮件地址：
+            </td>
+
+            <td style="white-space:nowrap;"><input type="text" id="username" name="username" size="30" maxlength="64" />
+            </td>
+          </tr>
+
+          <tr>
+            <td colspan="2" style="height:5px;line-height:5px;">&nbsp;
+            </td>
+          </tr>
+
+          <tr>
+            <td class="alignright bold label-container">
+              密码：
+            </td>
+
+            <td style="white-space:nowrap">
+              <input type="password" id="password" name="password" size="30" />
+            </td>
+          </tr>
+
+
+          <tr>
+            <td colspan="2" id="signin-button-container">
+              <button name="sign-in-button" id="sign-in-button" class="awesomeButton buttonLarge primaryLargeButton" type="submit"><span class="button_label">&nbsp;&nbsp;登录&nbsp;&nbsp;</span></button>
+            </td>
+          </tr>
+
+          <tr>
+            <td colspan="2" class="alignright" style="padding:5px;white-space:nowrap;"><span class="smaller"><a id="fpplink" href=https://sellercentral.amazon.co.uk/ap/forgotpassword?_encoding=UTF8&language=zh_CN&openid.assoc_handle=sc_uk_amazon&openid.claimed_id=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.identity=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.mode=checkid_setup&openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0&openid.ns.pape=http%3A%2F%2Fspecs.openid.net%2Fextensions%2Fpape%2F1.0&openid.pape.max_auth_age=0&openid.return_to=https%3A%2F%2Fsellercentral.amazon.co.uk%2Fgp%2Fsign-in%2Fsign-in.html%3Fie%3DUTF8%26destination%3Dhttps%253A%252F%252Fsellercentral.amazon.co.uk%252Fhz%252Fpayments-account%252Freport%252Fdownload%253F_encoding%253DUTF8%2526contentType%253Dtext%25252Fcsv%2526fileName%253D2016Apr_MonthlyTransaction.csv%2526referenceId%253D50721016924&pageId=sc_eu_amazon>忘记密码？</a> |
+               <a href="javascript:signInPage.loadHelp()">帮助</a></span>
+            </td>
+          </tr>
+        </table>
+      </table>
+      </td></tr>
+    </table>
+<script id="fwicm-script" type="text/javascript" src="https://images-na.ssl-images-amazon.com/images/G/02/x-locale/common/login/fwcim._V342129220_.js"></script>
+<script type="text/javascript">
+	fwcim.profile('signinWidget')
+</script>
+
+</form>
+</div>
+
+
+
+<img src="https://images-na.ssl-images-amazon.com/images/G/01/x-locale/common/transparent-pixel._V42752373_.gif" style="position: absolute" width="1" alt="" onload="if (typeof uet == 'function') { uet('cf'); }" height="1" border="0" />
+
+
+<div class="content-module">
+
+
+
+
+
+
+<table class="data-entry-purple" cellspacing="1" width="100%">
+  <tbody>
+    <tr>
+      <td style="padding: 10px;"><strong>还未在亚马逊上开店？</strong><br>
+        <div style="margin-top: 0.5em;">
+          <a href='http://services.amazon.co.uk/services/sell-on-amazon/how-it-works/?ld=SCUKSOA'>立即注册！</a>零年费零平台使用费，即刻入驻亚马逊中国，立享海量高质客户和全球化规范运营服务。
+        </div>
+      </td>
+    </tr>
+  </tbody>
+</table>
+<div style="margin-top:2em"></div>
+</div>
+</td></tr></table>
+</td><td style="width:22px;">&nbsp;</td><td id="login-right-column">
+<div class="content-module">
+
+
+
+
+
+
+
+
+
+  
+ 
+  
+  
+
+
+
+  
+
+
+
+
+<noscript><style>#DAslr{display:none;}</style></noscript><div id="DAslr" class="copilot-secure-display celwidget  text/x-dacx-safeframe" data-campaign="3279" style="" cel_widget_id="DAslr" data-ad-details='{"slot" :"DAslr","slotName" :"sc-login-right","src" : "https://aax-eu.amazon-adsystem.com/x/getad?c=100&pc=318949011&pt=SellerCentral&u=https%3A%2F%2Fwww.amazon.co.uk&src=505&sz=580x250&ad-sid=01013919c23eba0c08e95825b4ccf5cdfd2132c70cba4074f4522aa0f50abc794862&pj=%7B%22st%22%3A%22amzn.uk.sellercentral.login%22%2C%22zn%22%3A%22_default%22%2C%22prid%22%3A%220101100137b118a98935bcea1a3a03145013d06a6a0d360a7a6b2d65d15d3ec1c530%22%2C%22bn%22%3A%22318949011%22%7D&slot=sc-login-right","adServer" :"aax","campaignId" :  "3279","arid" :"e41efc6140b843deb4c8613ea0aaba8d","size" :{"width": "100%","height" : "250px;"},"allowedSizes" :[],"allowedDomains" :  [],"aanParams" :   "site%3Damazon.gb%3Bpt%3DSellerCentral%3Bslot%3Dsc-login-right%3Bpid%3DSellerCentral%3Bbn%3D318949011%3Bprid%3DBMNFK569MSTCYZYE3K2Z%3Barid%3De41efc6140b843deb4c8613ea0aaba8d%3Bad-sid%3D01013919c23eba0c08e95825b4ccf5cdfd2132c70cba4074f4522aa0f50abc794862","loadAfter" :   "windowOnLoad","daJsUrl" : "https://dq4ijymydgrfx.cloudfront.net/2016-02-22/v1/feedback-gb.js","iframeExtraStyle": "height:260px; min-width: 580px;","iframeClass":  "","feedbackJsUrl":"https://aan.amazon.co.uk/2009-09-09/ad/feedback.gb/default?pt=RemoteContent&slot=main&pt2=feedbackscript","showInlineFeedback": false,"inlineFeedbackParams": {},"boolFeedback": true,"adPixels": [],"adPixelDelay": "0","aaxImpPixelUrl":  "","aaxInstrPixelUrl": "","usePrefetchRoute": false,"htmlContent":  "","htmlContentEncoded": ""}'></div><script>(function(window, document){if(typeof uet == 'function' && typeof ues == 'function') {ues('wb','DAslr',{wb:1}); uet('bb','DAslr',{wb:1}); }window.aanParams=window.aanParams||{};window.aanParams['sc-login-right']="site=amazon.gb;pt=SellerCentral;slot=sc-login-right;pid=SellerCentral;bn=318949011;prid=BMNFK569MSTCYZYE3K2Z;arid=e41efc6140b843deb4c8613ea0aaba8d;ad-sid=01013919c23eba0c08e95825b4ccf5cdfd2132c70cba4074f4522aa0f50abc794862";window['sc-login-right'] = {};window['sc-login-right'].adStartTime = (new Date()).getTime();try {if(window.DAsf) {window.DAsf.loadAds();} else {var sfLibrary = document.createElement('script');sfLibrary.type = "text/javascript";sfLibrary.async = true;sfLibrary.setAttribute("crossorigin", "anonymous");sfLibrary.charset = "utf-8";sfLibrary.src = "https://images-eu.ssl-images-amazon.com/images/G/01/dacx/sf/DAsf-1.34_FX2._V271923411_.js";(document.getElementsByTagName('head')[0]||document.getElementsByTagName('body')[0]).appendChild(sfLibrary);}} catch(ex) {if(window.ueLogError) {window.ueLogError(ex, {logLevel : 'ERROR',attribution : 'DACX-safeframe',message : 'Error appending DAsf library'});}};}(window, document));</script>
+
+
+</div>
+</td></tr>
+
+</table>
+
+<div id="signin-links" class="content-module">
+
+
+
+
+
+
+<style type="text/css">
+#ll {margin-bottom:20px; min-width:960px;}
+#ll h3 { color: #000; font-size: 12px; font-weight: bold; }
+#ll-content, #ll-title {padding:0; margin:0 auto; vertical-align:baseline; position:relative; overflow:hidden;}
+#ll-title{margin-bottom:20px;}
+.ll-item {display:block; float:left; padding:5px 1% 570px 1%; margin-bottom:-520px; width:17.8%;}
+.ll-item .learn-more-button, .ll-item .learn-more-flags {display:block; position:absolute; height:160px; line-height: 21px;}
+.ll-item .learn-more-flags { margin-left: 10px; font-weight: bold; bottom:0px; }
+.ll-item .learn-more-flags ul { margin: 0px; padding: 1px 0px 0px 10px; list-style-type: none; }
+.ll-item .learn-more-flags img { position: relative; top: 3px; }
+.ll-grey {border-right:1px solid #dfdfdf; border-left:1px solid #dfdfdf;
+    background: #f9f9f9;
+    background: -moz-linear-gradient(top,  rgba(230,230,230,0) 0%, rgba(230,230,230,1) 20%, rgba(230,230,230,1) 50%, rgba(230,230,230,0) 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(230,230,230,0)), color-stop(20%,rgba(230,230,230,1)), color-stop(50%,rgba(230,230,230,1)), color-stop(100%,rgba(230,230,230,0)));
+    background: -webkit-linear-gradient(top,  rgba(230,230,230,0) 0%,rgba(230,230,230,1) 20%,rgba(230,230,230,1) 50%,rgba(230,230,230,0) 100%);
+    background: -ms-linear-gradient(top,  rgba(230,230,230,0) 0%,rgba(230,230,230,1) 20%,rgba(230,230,230,1) 50%,rgba(230,230,230,0) 100%);
+    background: linear-gradient(top,  rgba(230,230,230,0) 0%,rgba(230,230,230,1) 20%,rgba(230,230,230,1) 50%,rgba(230,230,230,0) 100%);
+}
+.ll-item-href, .ll-item-href:link, .ll-item-href:visited {text-decoration:none; color:#000;}
+.ll-item-chref { text-decoration:none; font-weight: bold; }
+.ll-item-chref:hover { color: #e47911; text-decoration: underline; }
+</style>
+<!--[if lte IE 9]>
+<style type="text/css">
+.ll-item {position:relative;}
+.ll-item .learn-more-button {left:0; bottom:530px; padding-left:25%;}
+.ll-item .learn-more-flags {left:10px; bottom:414px; width:90%;}
+</style>
+<![endif]-->
+
+<div id="ll">
+    <h2 id="ll-title">
+        亚马逊卖家服务
+    </h2>
+    <div id="ll-content">
+
+        <span id="ll-selling" class="ll-item ll-grey">
+        <a href="http://services.amazon.co.uk/services/sell-online/features-and-benefits.html?ld=SCUKSOALogin_widget" class="ll-item-href">
+            <h3>
+                我要开店
+            </h3>
+            将您的商品展示于亚马逊上百万买家的面前。无需每件商品上架费用，亚马逊可帮助您发展业务。
+        </a>
+        <span class="learn-more-button">
+            <a class="ll-item-chref" href="http://services.amazon.co.uk/services/sell-online/features-and-benefits.html?ld=SCUKSOALogin_widget">了解更多</a>
+        </span>
+    </span>
+    
+        <span id="ll-selling" class="ll-item">
+        <a href="http://services.amazon.co.uk/services/fulfilment-by-amazon/features-benefits.html?ld=SCUKFBALogin_widget" class="ll-item-href">
+            <h3>
+                亚马逊物流
+            </h3>
+            在亚马逊物流（Fulfilment by Amazon，FBA）的帮助下，您可以将商品存贮在亚马逊运营中心，我们将挑选、打包、配送这些商品并提供客户服务。
+        </a>
+        <span class="learn-more-button">
+            <a class="ll-item-chref" href="http://services.amazon.co.uk/services/fulfilment-by-amazon/features-benefits.html?ld=SCUKFBALogin_widget">了解更多</a>
+        </span>
+    </span>
+    
+        <span id="ll-selling" class="ll-item ll-grey">
+        <a href="https://payments.amazon.co.uk/business/?ld=SCUKCBALogin_widget" class="ll-item-href">
+            <h3>
+                Amazon Payments
+            </h3>
+            通过 Amazon Payments，数以百万计的亚马逊买家可使用已存储在其亚马逊账户中的信息在您的站点上付款
+        </a>
+        <span class="learn-more-button">
+            <a class="ll-item-chref" href="https://payments.amazon.co.uk/business/?ld=SCUKCBALogin_widget">了解更多</a>
+        </span>
+    </span>
+    
+        <span id="ll-selling" class="ll-item">
+        <a href="http://services.amazon.co.uk/services/sponsored-products/how-it-works.html?ld=SCUKSPLogin_widget" class="ll-item-href">
+            <h3>
+                亚马逊商品推广
+            </h3>
+            以关键词定位广告的方式促销您的亚马逊商品。为获取亚马逊搜索结果的首页竞标，且仅在单击您的广告时付费。
+        </a>
+        <span class="learn-more-button">
+            <a class="ll-item-chref" href="http://services.amazon.co.uk/services/sponsored-products/how-it-works.html?ld=SCUKSPLogin_widget">了解更多</a>
+        </span>
+    </span>
+        </div>
+    <div class="clearable"></div>
+</div>
+</div>
+
+
+
+
+
+
+
+
+<script>
+var signInPage = signInPage || {};
+var browserLang = navigator.language || navigator.userLanguage;
+var zhLang = false;
+if (browserLang.match(/zh/i)) {
+   zhLang = true;
+}
+
+signInPage.addElement = function() {
+    var help = '帮助';
+    if (zhLang) {
+        help = '帮助';
+    }
+    var ni = document.getElementById('ap_signin1a_forgot_password_row');
+    if (ni != null) {
+        var spans = ni.getElementsByTagName('span');
+        var secondSpan = spans[1];
+        secondSpan.setAttribute('id', 'sc-help-span');
+        secondSpan.innerHTML = secondSpan.innerHTML + ' | <a href="javascript:signInPage.loadHelp()">' + help + '</a>';
+    }
+}
+
+signInPage.loadHelp = function() {
+    var lang = {"language":"zh_CN"}.language;
+    if (zhLang) {
+        lang = 'zh_CN';
+    }
+    $('#login-right-column').load('/gp/help/login-help.html?language=' + lang + '&ref=xx_loginhelp_lgin_login',
+        function() {
+            // Changing the links for Password Assistance when the help window is loaded.
+            var forgotPasswordRow = $('#sc-help-span');
+
+            // identifier for sign-in widget
+            var signInWidget = $('form[name="signinWidget"]');
+
+            var forgotYourPasswordLink;
+
+            if (forgotPasswordRow.length) { // means that auth portal is enabled and we should change the 'Password Assistance' link.
+
+                // Fetching the new forgot your password link.
+                forgotYourPasswordLink = $('a:eq(0)', $('#sc-help-span')).attr('href');
+
+                // Replacing the old link with the new one.
+                $('a:eq(0)', $('li:eq(7)', $('#modules'))).attr('href', forgotYourPasswordLink);
+                $('a:eq(0)', $('li:eq(8)', $('#modules'))).attr('href', forgotYourPasswordLink);
+
+            }else if(signInWidget.length){ // means that auth portal widget is enabled and we should change the 'Password Assistance' link.
+
+                // Fetching the new forgot your password link.
+                forgotYourPasswordLink = $('#fpplink').attr('href');
+
+                // Replacing the old link with the new one.
+                $('a:eq(0)', $('li:eq(7)', $('#modules'))).attr('href', forgotYourPasswordLink);
+                $('a:eq(0)', $('li:eq(8)', $('#modules'))).attr('href', forgotYourPasswordLink);
+            }
+        }
+    );
+}
+
+window.onload = function() {
+    signInPage.addElement();
+
+    var emailField = document.getElementById('username') || document.getElementById('ap_email') || document.getElementById('email');
+
+    var passwordField = document.getElementById('password') || document.getElementById('ap_password');
+
+    if(emailField && passwordField && $(emailField).val() === "" && $(passwordField).val() === "") {
+        emailField.focus();
+    }
+}
+
+</script>
+
+
+
+
+
+
+
+
+
+<!-- gonzo comment do not remove -->
+
+
+
+
+
+
+
+
+
+        
+    
+        
+     
+
+
+        
+
+<script type="text/javascript">
+
+window.AmazonPopoverImages = {
+  snake: 'https://images-na.ssl-images-amazon.com/images/G/01/javascripts/lib/popover/images/snake._V192571611_.gif',
+  btnClose: 'https://images-na.ssl-images-amazon.com/images/G/01/javascripts/lib/popover/images/btn_close._V192188154_.gif',
+  closeTan: 'https://images-na.ssl-images-amazon.com/images/G/02/nav2/images/close-tan-sm._V192198775_.gif',
+  closeTanDown: 'https://images-na.ssl-images-amazon.com/images/G/02/nav2/images/close-tan-sm-dn._V192263238_.gif',
+  loadingBar: 'https://images-na.ssl-images-amazon.com/images/G/01/javascripts/lib/popover/images/loading-bar-small._V192188123_.gif',
+  pixel: 'https://images-na.ssl-images-amazon.com/images/G/01/icons/blank-pixel._V192192429_.gif'
+};
+var container = document.createElement("DIV");
+container.id = "ap_container";
+if (document.body.childNodes.length) {
+    document.body.insertBefore(container, document.body.childNodes[0]);
+} else {
+    document.body.appendChild(container);
+}
+
+</script>
+
+    <script type="text/javascript" src="https://images-na.ssl-images-amazon.com/images/G/01/browser-scripts/merged-core-js-1.4.2/core-7587526389._V1_.js"></script>
+<script type='text/javascript'>
+    amznJQ.addLogical('popover', []);
+    amznJQ.addLogical('clientLog', []);
+</script>
+
+
+<script type="text/javascript">
+amznJQ.declareAvailable("clientLog");
+</script>
+<script type='text/javascript'>
+amznJQ.addPL("https://images-na.ssl-images-amazon.com/images/G/02/rainier/misc/loading-please-wait-sc._V192262202_.jpg");
+amznJQ.addPL("https://images-na.ssl-images-amazon.com/images/G/01/browser-scripts/rainier-gateway/rainier-gateway-3094602043._V1_.js");
+amznJQ.addPL("https://images-na.ssl-images-amazon.com/images/G/01/abis-ui/buttons/go._V187564664_.gif");
+amznJQ.addPL("https://images-na.ssl-images-amazon.com/images/G/01/browser-scripts/rainier-jquery-ui/rainier-jquery-ui-3158266336._V1_.js");
+amznJQ.addPL("https://images-na.ssl-images-amazon.com/images/G/01/browser-scripts/rainier-merged-gateway/rainier-merged-gateway-7054738238._V1_.css");
+amznJQ.addPL("https://images-na.ssl-images-amazon.com/images/G/01/rainier/nav/ResponsiveNavSprite8._V360661208_.png");
+amznJQ.addPL("https://images-na.ssl-images-amazon.com/images/G/01/rainier/nav/search-icon._V372224688_.png");
+amznJQ.addPL("https://images-na.ssl-images-amazon.com/images/G/02/rainier/ajax/loading-bar-small._V192262565_.gif");
+amznJQ.addPL("https://images-na.ssl-images-amazon.com/images/G/01/rainier/homepage/gww-header-bg._V154327446_.png");
+amznJQ.addPL("https://images-na.ssl-images-amazon.com/images/G/01/rainier/homepage/gww-menu-arrows._V154328725_.png");
+</script>
+
+<!-- JSF Bootstrap N/A -->
+
+    
+        <script type="text/javascript">
+            var $ = jQuery;
+        </script>
+
+
+        
+    
+        
+    <script type="text/javascript" src="https://images-na.ssl-images-amazon.com/images/G/01/browser-scripts/rainier-core/rainier-core-2085080915._V1_.js"></script>
+
+
+
+    
+        
+    <script type="text/javascript" src="https://images-na.ssl-images-amazon.com/images/G/01/browser-scripts/rainier-core/rainier-core-2085080915._V1_.js"></script>
+
+
+    
+        
+     
+
+
+    
+        
+     
+
+
+
+<script>try{fixButtonWidths();}catch(e){}</script>
+
+
+<div id='be' style='display:none;visibility:hidden;'><form name='ue_backdetect'><input name='ue_back' value='1' type='hidden'></form><script type="text/javascript">
+(function(a){if(document.ue_backdetect&&document.ue_backdetect.ue_back){a.ue.bfini=document.ue_backdetect.ue_back.value}if(a.uet){a.uet("be")}if(a.onLdEnd){if(window.addEventListener){window.addEventListener("load",a.onLdEnd,false)}else{if(window.attachEvent){window.attachEvent("onload",a.onLdEnd)}}}if(a.ueh){a.ueh(0,window,"load",a.onLd,1)}})(ue_csm);
+</script>
+
+<a href='/gp/uedata/unsticky/276-7950611-8139406//ntpoffrw?tepes=1&amp;id=BMNFK569MSTCYZYE3K2Z'>v</a>
+<noscript><img src='/gp/uedata/unsticky/276-7950611-8139406//ntpoffrw?noscript&amp;id=BMNFK569MSTCYZYE3K2Z' /></noscript>
+
+
+
+</div>
+<script type='text/javascript'>
+(function(a){a._uec=function(d){var h=window,b=h.performance,f=b?b.navigation.type:0;if(f==0){var e="; expires="+new Date(+new Date+604800000).toGMTString(),c=+new Date-ue_t0;if(c>0){var g="|"+ +new Date;document.cookie="csm-hit="+(d/c).toFixed(2)+g+e+"; path=/"}}}})(ue_csm);
+_uec(32819);
+</script>
+</body>
+</html>
+
+

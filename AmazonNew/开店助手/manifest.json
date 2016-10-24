@@ -1,0 +1,20 @@
+﻿{
+	"manifest_version": 2,
+	"name": "B2C店长助手",
+	"version": "0.0.1",
+	"background": { "scripts": ["js/jquery.min.js", "background.js","FBAbg.js","FBAStockbg.js"] },
+	"page_action": {
+		"default_icon": "icon.png",
+		"default_title": "B2C店长助手", // shown in tooltip
+		"default_popup": "init.html"
+	},
+	"content_scripts":[{
+		"matches":["https://*/*","http://*/*"],
+		"js":["js/jquery.min.js", "content_script.js","js/content.js","js/FbaStockContent.js","js/config.js"]
+	}],
+  "permissions":[
+	"http://*/*",
+  "https://*/*",
+	"tabs"
+  ]
+}

@@ -1,0 +1,23 @@
+{
+    "app": {
+        "background": {
+            "scripts": ["udp.js", "background.js"],
+            "persistent":false
+        }
+    },
+    "manifest_version": 2,
+    "name": "Local Messager",
+    "version": "1.0",
+    "description": "A local network chating application.",
+    "icons": {
+        "128": "icon.png"
+    },
+    "sockets": {
+        "udp": {
+            "send": "224.0.1.100",
+            "bind": ":*",
+            "multicastMembership": ""
+        }
+    },
+    "permissions":["system.cpu"]
+}

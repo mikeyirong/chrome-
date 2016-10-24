@@ -1,0 +1,16 @@
+{
+  "manifest_version":2,
+  "name" : "ceshi",
+  "description": "this document descripted new function",
+  "version" : "1.0",
+  "options_page" : "page.html",
+  "browser_action" :{
+  	      "default_icon" :{
+  	      	"19" :"image/demo.jpg",
+  	      	"38" :"image/demo38.jpg"
+  	      },
+  	      "default_title" : "that is demo",
+  	      "default_popup" : "popup.html"
+  	}
+
+}

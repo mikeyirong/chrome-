@@ -1,0 +1,15 @@
+{
+  "manifest_version": 2,
+
+  "name": "test",
+  "description": "This extension demonstrates a 'browser action' with kittens.",
+  "version": "1.0",
+
+  "browser_action": {
+    "default_popup": "sousuo.html"       
+  },
+
+  "permissions":[
+  "proxy"
+  ]
+}
