@@ -19,6 +19,6 @@
     "options_page": "options.html",
     "permissions": [
         "http://api.openweathermap.org/data/2.5/forecast?q=*",
-        "https://api.thinkpage.cn/v3/weather/*"
+        "http://hq.sinajs.cn/list*"
     ]
 }
